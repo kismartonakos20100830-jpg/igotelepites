@@ -58,7 +58,11 @@ function googleTranslateElementInit() {
     <p>Természetesen az is megoldható, hogy az iGO belső tárhelyről megy, és SD kártyán vannak a térképek, POI-k, stb...
         Ez úgy oldható meg, hogy: SD kártyán --> Új --> Új mappa --> nevezd át: content --> Enter.<br> Vagy: --> Új --> Új mappa --> nevezd át: iGO --> Enter. Lépj bele a mappába: --> Új --> Új mappa --> nevezd át: content. Utána lépj bele a mappába, és másold bele ezeket a MAPPÁKAT: map/MAP, poi/POI, speedcam/SPEEDCAM.<br> Utána csatlakoztasd a GPS-eszt a gépedhez, és keresd meg azt a mappát, amelyikben az iGO van (pl.: MobileNavigator).<br> Ott keresd meg a sys.txt/SYS.txt fájl, és nyisd meg. Keresd meg a [folders] rész, törölj ki alóla mindent, és írd be ezt: <br>
 has_secondary_root=1<br>
-content="\SDMMC\iGO\content" <br><br> A másolás természetesen attól függ, hogy ebből mi van neked. Nem kötelező mindent átmásolni a felsoroltak közül, de a map/MAP mappát KÖTELEZŐ felrakni!!
+content="\SDMMC\iGO\content"
+        VAGY:
+        has_secondary_root=1
+        content="\SDMMC\content"
+        <br><br> A másolás természetesen attól függ, hogy ebből mi van neked. Nem kötelező mindent átmásolni a felsoroltak közül, de a map/MAP mappát KÖTELEZŐ felrakni!!
     </p>
 
     <h2>Ha esetleg nem lenne meg az iGO8, iGO Primo, térképek, akkor innen le tudod tölteni őket:</h2>
